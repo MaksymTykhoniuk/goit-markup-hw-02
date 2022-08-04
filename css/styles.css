@@ -5,9 +5,10 @@
 	--main-black-color: #212121;
 	--seconadary-black-color: #000000;
 	--accent-color: #2196f3;
+	--hover-accent-color: #1f84d7;
 	--footer-background-color: #2f303a;
 	--button-bgc-color: #eeeeee;
-	--hover-accent-color: #1f84d7;
+	--header-border-color: #ececec;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 }
 
 .header {
-	border-bottom: 1px solid #ececec;
+	border-bottom: 1px solid var(--header-border-color);
 }
 
 ul {
